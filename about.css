@@ -1,0 +1,127 @@
+@font-face{
+    font-family: headers;
+    src: url(BebasNeue-Regular.otf)
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.78),
+    rgba(0, 0, 0, 0.78)
+  ),
+  url(download.jpg);
+
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-attachment: fixed;
+
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgb(187, 187, 187);
+  font-family: headers;
+}
+
+.center {
+    margin: auto;
+  }
+
+.centerVert{
+  padding: 250px 0;
+}
+
+.btn{
+  background-color:  rgba(187, 187, 187, 0);
+}
+
+input{
+  color: rgb(187, 187, 187);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(187, 187, 187, 0);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #fff;
+}
+
+.signUp{
+  margin: auto;
+  width: 69%;
+}
+
+.larger {
+    font-size: 21px;
+}
+
+p {
+  padding: 10px 0;
+  color: rgb(187, 187, 187);
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: rgb(187, 187, 187, 0);
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: #fff;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 18px;
+  }
+
+  .signUp{
+    margin: unset;
+    width: 100%;
+  }
+}
